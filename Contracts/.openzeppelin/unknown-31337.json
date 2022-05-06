@@ -1,0 +1,27 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [],
+  "impls": {
+    "3f308412ab4b05f9817fa2c69fca5274dc7b30188a389c88c350645a1f22ff53": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0x9c15fc32f61bd52f0b4addb07b44bf8146d849a192f3f8bff0ad4cdfafc1bd92",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Message",
+            "src": "contracts\\Test.sol:5"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          }
+        }
+      }
+    }
+  }
+}

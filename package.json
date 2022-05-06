@@ -1,0 +1,13 @@
+{
+    "name": "Root",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.ts",
+    "scripts": {
+        "postinstall": "(cd Node && npm install) && (cd frontend && npm install) && (cd Contracts && npm install)"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {}
+}
